@@ -6,20 +6,20 @@ labels: ''
 assignees: ''
 
 ---
+## TO-DO LIST
 
-## 1. SETTING UP
 ### `git config`
 - [ ] Set up your name and email
 
 ### Forking a repository
-- [ ] Fork this repository to your Github account
+- [ ] Fork `bhl_git_training` repository to your Github account
 
 ### `git clone`
 -  [ ] Clone the forked repo to your local machine
 
 ### `git remote`
 
-## 2. WORKFLOW
+
 ### `git fetch`
 
 ### `git pull`
