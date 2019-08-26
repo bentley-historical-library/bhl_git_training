@@ -9,25 +9,28 @@ assignees: ''
 ## TO-DO LIST
 
 ### `git config`
-- [ ] Set up your name and email
+- [ ] Set up your user name and email for git
 
-### Forking a repository
-- [ ] Fork `bhl_git_training` repository to your Github account
+### Fork the Repository
+- [ ] Fork [bentley-historical-library/bhl_git_training](https://github.com/bentley-historical-library/bhl_git_training) repository to your GitHub account
 
 ### `git clone`
--  [ ] Clone the forked repo to your local machine
+- [ ] Clone the forked repository to your computer
 
 ### `git remote`
-
+- [ ] Add [bentley-historical-library/bhl_git_training](https://github.com/bentley-historical-library/bhl_git_training) repository as an upstream remote repository
 
 ### `git fetch`
+- [ ] Fetch 
 
 ### `git pull`
+- [ ] Pull 
 
 ### `git add`
+- [ ] 
 
 ### `git commit`
 
 ### `git push`
 
-### Creating Pull Requests and Resolving Issues
+### Create a Pull Request and Resolve the Issue
