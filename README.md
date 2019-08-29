@@ -5,15 +5,16 @@ Welcome to BHL Git and GitHub training!
 If you are new to Git and GitHub, or you need a refresher, you're in the right place. 
 
 In this training, you will upload a python script to `bentley-historical-library/bhl_git_training` repository (repo) and learn how to:
-- [Fork and clone a repository]() 
-- [Pull, commit, push changes]()
-- [Create pull requests and resolve issues]()
+- [Fork and clone a repository](https://github.com/bentley-historical-library/bhl_git_training#step-1-setting-up) 
+- [Pull, commit, push changes](https://github.com/bentley-historical-library/bhl_git_training#step-2-understanding-workflow)
+- [Create pull requests and resolve issues](https://github.com/bentley-historical-library/bhl_git_training#step-2-understanding-workflow)
 
 ## BEFORE YOU START
 - For this training, you need to have Git on your computer and know basic terminal commands, such as `cd` and `ls`. This instruction was written for Git Bash on Windows.
+  - See [this video](https://learning.oreilly.com/videos/learn-python-the/9780134686011/9780134686011-CLICCWindows) or [this book](https://learning.oreilly.com/library/view/learn-python-the/9780133124316/app03.html) (use your UofM ID for the login) if you need a crash course on terminal commands. 
 - You can get your to-do list for this training by creating a new issue using the To-do List template.
   - Click Issues menu in the top-left; Then, click New issues button on the right side.
-- This README.me includes common Git commands with a brief description of how it is used and what it does. You can learn more about each command by following `>> More` links.
+- This document includes common Git commands with a brief description of how it is used and what it does. You can learn more about each command by following `>> More` links.
 
 ## STEP 1. SETTING UP
 ### `git config`
@@ -21,7 +22,7 @@ In this training, you will upload a python script to `bentley-historical-library
 git config --global user.name "YOUR NAME"
 git config --global user.email YOUR@EMAIL
 ``` 
-- Git uses a username to associate commits with an identity. [>> More](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config)
+- Git uses a username to associate commits with an identity. [>> More](http://swcarpentry.github.io/git-novice/02-setup/index.html)
 - Tip: 
   - To view your git settings, type `git config --list`
 
@@ -87,9 +88,14 @@ git push
 ## BEFORE YOU LEAVE
 That was the Git and GitHub basics! Before you leave, there are few *useful* things you might want to know:
 
+### First and Foremost
+```
+When you are working with Git and GitHub, NEVER put confidential/senstive information (e.g., password, API keys, and etc.) into a repo.
+```
+
 ### `.gitignore`
-- A `.gitignore file can be used to specify files and directories that should not be tracked by git. These might include log files, test data, configuration files created by a code editor, and so on.
-- Files and directories to ignore can be specified by exact name (e.g., a directory named "test-data/" or a file called "secrets.txt") to ignore those specifics files or directories or by using a wildcard to ignore patters of files or directories (e.g., "*.log" to ignore all log files)
+- A `.gitignore` file can be used to specify files and directories that should not be tracked by git. These might include log files, test data, configuration files created by a code editor, and so on.
+- Files and directories to ignore can be specified by exact name (e.g., a directory named "test-data/" or a file called "secrets.txt") to ignore those specifics files or directories or by using a wildcard to ignore patters of files or directories (e.g., "*.log" to ignore all log files).
 - [Learn more about .gitignore](http://swcarpentry.github.io/git-novice/06-ignore/index.html)
 
 ### `git status` and `git log`
@@ -114,14 +120,12 @@ git merge
 ```
 - The `git merge` command can be used to combine (merge) the commits from a specified branch into your current branch. `git merge` will also report on conflicts that exist between the two branches, which will need to be resolved before the two branches can be combined. [>> More on branching and merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
-
----
 ## ADDITIONAL RESOURCE
 - https://software-carpentry.org/lessons/
 - https://guides.github.com/introduction/git-handbook
 - https://www.atlassian.com/git/tutorials/
-- https://www.youtube.com/user/GitHubGuides/videos
 - https://realpython.com/python-git-github-intro/
+- https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
 
 ## ACKNOWLEDGMENTS
-- This training resource was inspired by the GitHub Pages training, and each git command descriptions are from [GitHub Help](https://help.github.com) and [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
+- This training resource was inspired by the GitHub Pages training, and each git command descriptions are from [GitHub Help](https://help.github.com), [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials), and [Software Carpentry](https://software-carpentry.org/lessons/index.html).
