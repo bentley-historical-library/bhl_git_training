@@ -90,7 +90,9 @@ That was the Git and GitHub basics! Before you leave, there are few *useful* thi
 
 ### First and Foremost
 ```
-When you are working with Git and GitHub, NEVER put confidential/senstive information (e.g., password, API keys, and etc.) into a repo.
+When you are working with Git and GitHub, 
+NEVER put confidential/senstive information 
+(e.g., password, API keys, and etc.) into a repo.
 ```
 
 ### `.gitignore`
