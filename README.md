@@ -7,7 +7,7 @@ If you are new to Git and GitHub, or you need a refresher, you're in the right p
 In this training, you will upload a python script to `bentley-historical-library/bhl_git_training` repository (repo) and learn how to:
 - [Fork and clone a repository](https://github.com/bentley-historical-library/bhl_git_training#step-1-setting-up) 
 - [Pull, commit, push changes](https://github.com/bentley-historical-library/bhl_git_training#step-2-understanding-workflow)
-- [Create pull requests and resolve issues](https://github.com/bentley-historical-library/bhl_git_training#step-2-understanding-workflow)
+- [Create pull requests and resolve issues](https://github.com/bentley-historical-library/bhl_git_training#step-3-collaborating)
 
 ## BEFORE YOU START
 - For this training, you need to have Git on your computer and know basic terminal commands, such as `cd` and `ls`. This instruction was written for Git Bash on Windows.
