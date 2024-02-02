@@ -24,7 +24,7 @@ Click the Fork button in the top-right corner of a GitHub repo page
 ```
 - A fork is a copy of a repo. Forking a repo allows you to freely experiment with changes without affecting the original project. [>> More](https://help.github.com/en/articles/fork-a-repo)
 
-### Cloning a repo to your computer
+### Cloning a repo to your computer with GitHub Desktop
 ```
 Click File --> Clone repository... in the top-left corner of GitHub Desktop
 Filter your repositories, choose a local path, and click Clone
@@ -79,6 +79,17 @@ When you are working with Git and GitHub, NEVER put confidential/senstive inform
 - A `.gitignore` file can be used to specify files and directories that should not be tracked by git. These might include log files, test data, configuration files created by a code editor, and so on.
 - Files and directories to ignore can be specified by exact name (e.g., a directory named "test-data/" or a file called "secrets.txt") to ignore those specifics files or directories or by using a wildcard to ignore patters of files or directories (e.g., "*.log" to ignore all log files).
 - [Learn more about .gitignore](http://swcarpentry.github.io/git-novice/06-ignore/index.html)
+
+## LET'S TRY IT OUT!
+
+- [ ] Forking this repo to your personal GitHub account
+- [ ] Clone this repo to your computer with GitHub Desktop
+- [ ] Sync your fork (if necessary) to this repo in GitHub
+- [ ] Fetch data from your fork (if necessary) in GitHub Desktop
+- [ ] Use your IDE or text editor to create a new file in the "2024_reboot" folder modeled after "max.py"
+- [ ] Commit this in GitHub Desktop
+- [ ] Push your commit(s) to your fork
+- [ ] Open a pull request from your fork to this repo
 
 ## ADDITIONAL RESOURCES
 - https://software-carpentry.org/lessons/
