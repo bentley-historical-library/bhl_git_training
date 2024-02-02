@@ -34,7 +34,7 @@ Filter your repositories, choose a local path, and click Clone
 ## STEP 2. UNDERSTANDING WORKFLOW
 ### Syncing a fork
 ```
-Click the Sync fork button in the top-right corner of your fork in GitHub
+Click the Sync fork button in the top-right corner of your fork in GitHub, then Update branch
 ```
 - This refreshes your fork so that it matches whats in the upstream repo (from the command line, `git fetch upstream`). It allows you to see what everybody else has been working on. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-fetch)
 
@@ -60,7 +60,8 @@ Click "Push origin" in GitHub Desktop (after committing a change)
 ## STEP 3. COLLABORATING 
 ### Creating Pull Requests
 ```
-Click the Contribute button in the top right of GitHub and then the open pull request button
+Click the Contribute button in the top right of GitHub and then the Open pull request button
+Add a Title and optionally a Description
 ```
 - Pull requests let you tell others about changes you have pushed to a repo on GitHub. Once the request is reviewed and approved, your changes are merged into the repo. [>> More](https://help.github.com/en/articles/about-pull-requests)
 - _Tip: After creating a pull request and having it accepted, your fork will be technically behind the upstream repo. You'll need to start over again with syncing._
