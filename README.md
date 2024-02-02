@@ -53,9 +53,9 @@ Fill out the Title and optionally a Description in the lower left of GitHub Desk
 
 ### Pushing new changes 
 ```
-
+Click "Push origin" in GitHub Desktop (after committing a change)
 ```
-- The `git push` command is used to upload local repo content to a remote repo. Pushing is how you transfer commits from your local repo to a remote repo. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-push)
+- Pushing is used to upload what's local on your computer to your fork. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-push)
 
 ## STEP 3. COLLABORATING 
 ### Creating Pull Requests and Resolving Issues
