@@ -7,7 +7,7 @@ If you are new to Git and GitHub, or you need a refresher, you're in the right p
 In this training, you will upload a python script to `bentley-historical-library/bhl_git_training` repository (repo) and learn how to:
 - [Fork and clone a repository](https://github.com/bentley-historical-library/bhl_git_training#step-1-setting-up) 
 - [Pull, commit, push changes](https://github.com/bentley-historical-library/bhl_git_training#step-2-understanding-workflow)
-- [Create pull requests and resolve issues](https://github.com/bentley-historical-library/bhl_git_training#step-3-collaborating)
+- [Create pull requests](https://github.com/bentley-historical-library/bhl_git_training#step-3-collaborating)
 - [Syncing your fork to the "upstream" repository](https://github.com/bentley-historical-library/bhl_git_training#step-4-syncing-to-upstream)
 
 ## BEFORE YOU START
@@ -29,51 +29,41 @@ Click the Fork button in the top-right corner of a GitHub repo page
 Click File --> Clone repository... in the top-left corner of GitHub Desktop
 Filter your repositories, choose a local path, and click Clone
 ```
-- Cloning (from the command line, `git clone`) copies a remote repo (e.g., a GitHub repo) to create a local copy on your computer. By default, GitHub Desktop keeps track of local (to your fork and your computer) and remote (in the bentley-historical-library GitHub) repositories. [>> More](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone)
+- Cloning (from the command line, `git clone`) copies a from your fork to create a local copy on your computer. [>> More](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone)
 
 ## STEP 2. UNDERSTANDING WORKFLOW
-### `git fetch`
+### Syncing a fork
 ```
-git fetch upstream
+Click the Sync fork button in the top-right corner of your fork in GitHub
 ```
-- The `git fetch` command downloads commits, files, and refs from a remote repo into your local repo. It allows you to see what everybody else has been working on. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-fetch)
+- This refreshes your fork so that it matches whats in the upstream repo (from the command line, `git fetch upstream`). It allows you to see what everybody else has been working on. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-fetch)
 
-### `git pull`
+### Fetching from fork
 ```
-git pull upstream master
+Click the Fetch origin button at the top of GitHub Desktop
 ```
-- The `git pull` command is used to fetch and download content from a remote repo and immediately update the local repo to match that content. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-pull)
+- This ensures that what's local on your comuter matches what's in your fork. If there are differences, you will be prompted to "pull" (from the command line, `git pull`) them down. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-pull)
 
-### `git add`
+### Committing new changes
 ```
-git add <file or directory>
+Fill out the Title and optionally a Description in the lower left of GitHub Desktop and click Commit to master (sic)
 ```
-- The `git add` command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. [>> More](https://www.atlassian.com/git/tutorials/saving-changes)
+- As you work on your computer, you save your work by committing it. Commits can be thought of as snapshots along the timeline of a project. Commits are created with the `git commit` command to capture the state of a project at that point in time. [>> More](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
+- _Tip: Use the imperative mood for your commit message_
 
-### `git commit`
+### Pushing new changes 
 ```
-git commit -m "commit message"
+Click "Push origin" in GitHub Desktop (after committing a change)
 ```
-- Commits can be thought of as snapshots along the timeline of a project. Commits are created with the `git commit` command to capture the state of a project at that point in time. [>> More](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
-- Tip:
-  - Use the imperative mood for your commit message
-
-### `git push`
-```
-git push
-```
-- The `git push` command is used to upload local repo content to a remote repo. Pushing is how you transfer commits from your local repo to a remote repo. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-push)
+- Pushing is used to upload what's local on your computer to your fork. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-push)
 
 ## STEP 3. COLLABORATING 
-### Creating Pull Requests and Resolving Issues
-- What are pull requests? 
-  - Pull requests let you tell others about changes you have pushed to a repo on GitHub. Once the request is reviewed and approved, your changes are merged into the repo. [>> More](https://help.github.com/en/articles/about-pull-requests)
-- Using a pull request, you can resolve issues as well. In the body of your pull request, use GitHub syntax: close / fix / resolve + issue number (e.g., `Fixes #123`). [>> More](https://help.github.com/en/articles/closing-issues-using-keywords)
-
-## STEP 4. SYNCING TO UPSTREAM
-### Syncing your fork to the "upstream" repository
-
-Cupcake ipsum dolor sit amet cupcake bear claw cotton candy. Oat cake pie cotton candy pastry topping toffee pie. Lemon drops chocolate cake marshmallow muffin sesame snaps. Cotton candy cookie jelly lollipop gummi bears danish topping marzipan cheesecake.
+### Creating Pull Requests
+```
+Click the Contribute button in the top right of GitHub and then the open pull request button
+```
+- Pull requests let you tell others about changes you have pushed to a repo on GitHub. Once the request is reviewed and approved, your changes are merged into the repo. [>> More](https://help.github.com/en/articles/about-pull-requests)
+- _Tip: After creating a pull request and having it accepted, your fork will be technically behind the upstream repo. You'll need to start over again with syncing._
 
 ## BEFORE YOU LEAVE
 That was the Git and GitHub basics! Before you leave, there are few *useful* things you might want to know:
