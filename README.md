@@ -12,40 +12,23 @@ In this training, you will upload a python script to `bentley-historical-library
 
 ## BEFORE YOU START
 - The 2024 reboot is adapted from Hyeeyoung Kim's original git training for the Bentley Historical Library. Thank you, Hyeeyoung!
-- This training assumes you've successfully set up a Python [Development Environment](https://docs.google.com/document/d/1ov74wkiqkoGPJiiIfxrsJOEiWeXdjHd9ZyrKif4-ZdE/edit#heading=h.icnkahzf3tlr).
+- This training assumes you've successfully set up a Python [Development Environment](https://docs.google.com/document/d/1ov74wkiqkoGPJiiIfxrsJOEiWeXdjHd9ZyrKif4-ZdE/edit#heading=h.icnkahzf3tlr) with GitHub Desktop.
 - I (Max) am a visual learner, and this visualization helped get a basic overview of git and GitHub workflow:
 
 ![Git/GitHub Workflow](images/git-github-workflow.png)
 
 ## STEP 1. SETTING UP
-### `git config`
-```
-git config --global user.name "YOUR NAME"
-git config --global user.email YOUR@EMAIL
-``` 
-- Git uses a username to associate commits with an identity. [>> More](http://swcarpentry.github.io/git-novice/02-setup/index.html)
-- Tip: 
-  - To view your git settings, type `git config --list`
-
 ### Forking a repo
 ```
 Click the Fork button in the top-right corner of a GitHub repo page
 ```
 - A fork is a copy of a repo. Forking a repo allows you to freely experiment with changes without affecting the original project. [>> More](https://help.github.com/en/articles/fork-a-repo)
 
-### `git clone`
+### Clone a repo
 ```
-git clone <repo_url> <directory>
+Click File --> Clone repository... in the top-left corner of GitHub Desktop
 ```
-- The `git clone` command copies a remote repo (e.g., a GitHub repo) to create a local copy on your computer. [>> More](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone)
-
-### `git remote`
-```
-git remote add upstream <repo_url>
-```
-- The `git remote` command sets connections (i.e., bookmarks) to other repositories. [>> More](https://www.atlassian.com/git/tutorials/syncing)
-- Tip:
-  - To view your remote repositories, type `git remote -v`
+- Cloning (`git clone`) copies a remote repo (e.g., a GitHub repo) to create a local copy on your computer. By default, GitHub Desktop keeps track of local (to your fork and therefore your computer) and remote (in the bentley-historical-library GitHub) repositories [>> More](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone)
 
 ## STEP 2. UNDERSTANDING WORKFLOW
 ### `git fetch`
