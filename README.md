@@ -12,6 +12,16 @@ In this training, you will upload a python script to `bentley-historical-library
 
 ## BEFORE YOU START
 - The 2024 reboot is adapted from Hyeeyoung Kim's original git training for the Bentley Historical Library. Thank you, Hyeeyoung!
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+- This training assumes you've successfully set up a Python [Development Environment](https://docs.google.com/document/d/1ov74wkiqkoGPJiiIfxrsJOEiWeXdjHd9ZyrKif4-ZdE/edit#heading=h.icnkahzf3tlr) with GitHub Desktop.
+- I (Max) am a visual learner, and this visualization helped get a basic overview of git and GitHub workflow:
+=======
+- This training assumes you've successfully set up a Python [Development Environment](https://docs.google.com/document/d/1ov74wkiqkoGPJiiIfxrsJOEiWeXdjHd9ZyrKif4-ZdE/edit#heading=h.icnkahzf3tlr).
+- I (Max) am a visual learner, and this visualization helped me get a basic overview of git and GitHub workflow:
+>>>>>>> 9f17dde087b512b0abb3d595b64f46134536f95a
+>>>>>>> Stashed changes
 
 ![Git/GitHub Workflow](images/git-github-workflow.png)
 
@@ -25,6 +35,7 @@ Click the Fork button in the top-right corner of a GitHub repo page
 ### Clone a repo
 ```
 Click File --> Clone repository... in the top-left corner of GitHub Desktop
+Filter your repositories, choose a local path, and click Clone
 ```
 - Cloning (`git clone`) copies a remote repo (e.g., a GitHub repo) to create a local copy on your computer. By default, GitHub Desktop keeps track of local (to your fork and therefore your computer) and remote (in the bentley-historical-library GitHub) repositories [>> More](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone)
 
