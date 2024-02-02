@@ -7,7 +7,7 @@ If you are new to Git and GitHub, or you need a refresher, you're in the right p
 In this training, you will upload a python script to `bentley-historical-library/bhl_git_training` repository (repo) and learn how to:
 - [Fork and clone a repository](https://github.com/bentley-historical-library/bhl_git_training#step-1-setting-up) 
 - [Pull, commit, push changes](https://github.com/bentley-historical-library/bhl_git_training#step-2-understanding-workflow)
-- [Create pull requests and resolve issues](https://github.com/bentley-historical-library/bhl_git_training#step-3-collaborating)
+- [Create pull requests](https://github.com/bentley-historical-library/bhl_git_training#step-3-collaborating)
 - [Syncing your fork to the "upstream" repository](https://github.com/bentley-historical-library/bhl_git_training#step-4-syncing-to-upstream)
 
 ## BEFORE YOU START
@@ -58,15 +58,12 @@ Click "Push origin" in GitHub Desktop (after committing a change)
 - Pushing is used to upload what's local on your computer to your fork. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-push)
 
 ## STEP 3. COLLABORATING 
-### Creating Pull Requests and Resolving Issues
-- What are pull requests? 
-  - Pull requests let you tell others about changes you have pushed to a repo on GitHub. Once the request is reviewed and approved, your changes are merged into the repo. [>> More](https://help.github.com/en/articles/about-pull-requests)
-- Using a pull request, you can resolve issues as well. In the body of your pull request, use GitHub syntax: close / fix / resolve + issue number (e.g., `Fixes #123`). [>> More](https://help.github.com/en/articles/closing-issues-using-keywords)
-
-## STEP 4. SYNCING TO UPSTREAM
-### Syncing your fork to the "upstream" repository
-
-Cupcake ipsum dolor sit amet cupcake bear claw cotton candy. Oat cake pie cotton candy pastry topping toffee pie. Lemon drops chocolate cake marshmallow muffin sesame snaps. Cotton candy cookie jelly lollipop gummi bears danish topping marzipan cheesecake.
+### Creating Pull Requests
+```
+Click the Contribute button in the top right of GitHub and then the open pull request button
+```
+- Pull requests let you tell others about changes you have pushed to a repo on GitHub. Once the request is reviewed and approved, your changes are merged into the repo. [>> More](https://help.github.com/en/articles/about-pull-requests)
+- _Tip: After creating a pull request and having it accepted, your fork will be technically behind the upstream repo. You'll need to start over again with syncing._
 
 ## BEFORE YOU LEAVE
 That was the Git and GitHub basics! Before you leave, there are few *useful* things you might want to know:
