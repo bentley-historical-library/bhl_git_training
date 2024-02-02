@@ -41,6 +41,7 @@ Click the Sync fork button in the top-right corner of your fork in GitHub, then 
 ### Fetching from fork
 ```
 Click the Fetch origin button at the top of GitHub Desktop
+Then (if applicable), the Pull origin button
 ```
 - This ensures that what's local on your comuter matches what's in your fork. If there are differences, you will be prompted to "pull" (from the command line, `git pull`) them down. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-pull)
 
@@ -71,9 +72,7 @@ That was the Git and GitHub basics! Before you leave, there are few *useful* thi
 
 ### First and Foremost
 ```
-When you are working with Git and GitHub, 
-NEVER put confidential/senstive information 
-(e.g., password, API keys, and etc.) into a repo.
+When you are working with Git and GitHub, NEVER put confidential/senstive information (e.g., password, API keys, and etc.) into a repo.
 ```
 
 ### `.gitignore`
@@ -81,29 +80,7 @@ NEVER put confidential/senstive information
 - Files and directories to ignore can be specified by exact name (e.g., a directory named "test-data/" or a file called "secrets.txt") to ignore those specifics files or directories or by using a wildcard to ignore patters of files or directories (e.g., "*.log" to ignore all log files).
 - [Learn more about .gitignore](http://swcarpentry.github.io/git-novice/06-ignore/index.html)
 
-### `git status` and `git log`
-```
-git status
-```
-- The `git status` can be used to show which branch you are on, which files have uncommitted changes, whether or not your local repository is up-to-date with a remote repository, and so on.
-
-```
-git log
-```
-- The `git log` command can be used to list the commit history for your current branch or a specific file. Use `git log` to show all commits for the given branch and `git log filename` to show history for a specific file. [>> More about exploring your git history](http://swcarpentry.github.io/git-novice/05-history/index.html)
-
-### Branching and Merging
-```
-git branch
-```
-- A git branch can be used to track a series of similar commits separate from the `master` branch. Branching is useful when you will be working on a specific feature request or issue that might require multiple commits or when working on multiple separate features at once to avoid committing too many conflicting changes to master. Use `git branch` to list all branches on your repository, `git branch [branch-name]` to create a new branch, and `git checkout [branch-name]` to switch to a specified branch.
-
-```
-git merge
-```
-- The `git merge` command can be used to combine (merge) the commits from a specified branch into your current branch. `git merge` will also report on conflicts that exist between the two branches, which will need to be resolved before the two branches can be combined. [>> More on branching and merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
-
-## ADDITIONAL RESOURCE
+## ADDITIONAL RESOURCES
 - https://software-carpentry.org/lessons/
 - https://guides.github.com/introduction/git-handbook
 - https://www.atlassian.com/git/tutorials/
