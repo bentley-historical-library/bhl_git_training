@@ -12,8 +12,6 @@ In this training, you will upload a python script to `bentley-historical-library
 
 ## BEFORE YOU START
 - The 2024 reboot is adapted from Hyeeyoung Kim's original git training for the Bentley Historical Library. Thank you, Hyeeyoung!
-- This training assumes you've successfully set up a Python [Development Environment](https://docs.google.com/document/d/1ov74wkiqkoGPJiiIfxrsJOEiWeXdjHd9ZyrKif4-ZdE/edit#heading=h.icnkahzf3tlr) with GitHub Desktop.
-- I (Max) am a visual learner, and this visualization helped get a basic overview of git and GitHub workflow:
 
 ![Git/GitHub Workflow](images/git-github-workflow.png)
 
