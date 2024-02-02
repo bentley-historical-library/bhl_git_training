@@ -29,38 +29,31 @@ Click the Fork button in the top-right corner of a GitHub repo page
 Click File --> Clone repository... in the top-left corner of GitHub Desktop
 Filter your repositories, choose a local path, and click Clone
 ```
-- Cloning (from the command line, `git clone`) copies a remote repo (e.g., a GitHub repo) to create a local copy on your computer. By default, GitHub Desktop keeps track of local (to your fork and your computer) and remote (in the bentley-historical-library GitHub) repositories. [>> More](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone)
+- Cloning (from the command line, `git clone`) copies a from your fork to create a local copy on your computer. [>> More](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone)
 
 ## STEP 2. UNDERSTANDING WORKFLOW
-### `git fetch`
+### Syncing a fork
 ```
-git fetch upstream
+Click the Sync fork button in the top-right corner of your fork in GitHub
 ```
-- The `git fetch` command downloads commits, files, and refs from a remote repo into your local repo. It allows you to see what everybody else has been working on. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-fetch)
+- This refreshes your fork so that it matches whats in the upstream repo (from the command line, `git fetch upstream`). It allows you to see what everybody else has been working on. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-fetch)
 
-### `git pull`
+### Fetching from fork
 ```
-git pull upstream master
+Click the Fetch origin button at the top of GitHub Desktop
 ```
-- The `git pull` command is used to fetch and download content from a remote repo and immediately update the local repo to match that content. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-pull)
+- This ensures that what's local on your comuter matches what's in your fork. If there are differences, you will be prompted to "pull" (from the command line, `git pull`) them down. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-pull)
 
-### `git add`
+### Committing new changes
 ```
-git add <file or directory>
+Fill out the Title and optionally a Description in the lower left of GitHub Desktop and click Commit to master (sic)
 ```
-- The `git add` command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. [>> More](https://www.atlassian.com/git/tutorials/saving-changes)
+- As you work on your computer, you save your work by committing it. Commits can be thought of as snapshots along the timeline of a project. Commits are created with the `git commit` command to capture the state of a project at that point in time. [>> More](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
+- _Tip: Use the imperative mood for your commit message_
 
-### `git commit`
+### Pushing new changes 
 ```
-git commit -m "commit message"
-```
-- Commits can be thought of as snapshots along the timeline of a project. Commits are created with the `git commit` command to capture the state of a project at that point in time. [>> More](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
-- Tip:
-  - Use the imperative mood for your commit message
 
-### `git push`
-```
-git push
 ```
 - The `git push` command is used to upload local repo content to a remote repo. Pushing is how you transfer commits from your local repo to a remote repo. [>> More](https://www.atlassian.com/git/tutorials/syncing/git-push)
 
