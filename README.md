@@ -11,11 +11,11 @@ In this training, you will upload a python script to `bentley-historical-library
 - [Syncing your fork to the "upstream" repository](https://github.com/bentley-historical-library/bhl_git_training#step-4-syncing-to-upstream)
 
 ## BEFORE YOU START
-- For this training, you need to have Git on your computer and know basic terminal commands, such as `cd` and `ls`. This instruction was written for Git Bash on Windows.
-  - See [this video](https://learning.oreilly.com/videos/learn-python-the/9780134686011/9780134686011-CLICCWindows) or [this book](https://learning.oreilly.com/library/view/learn-python-the/9780133124316/app03.html) (use your UofM ID for the login) if you need a crash course on terminal commands. 
-- You can get your to-do list for this training by creating a new issue using the To-do List template.
-  - Click Issues menu in the top-left; Then, click New issues button on the right side.
-- This document includes common Git commands with a brief description of how it is used and what it does. You can learn more about each command by following `>> More` links.
+- The 2024 reboot is adapted from Hyeeyoung Kim's original git training for the Bentley Historical Library. Thank you, Hyeeyoung!
+- This training assumes you've successfully set up a Python [Development Environment](https://docs.google.com/document/d/1ov74wkiqkoGPJiiIfxrsJOEiWeXdjHd9ZyrKif4-ZdE/edit#heading=h.icnkahzf3tlr).
+- I (Max) am a visual learner, and this visualization helped get a basic overview of git and GitHub workflow:
+
+![Git/GitHub Workflow](images/git-github-workflow.png)
 
 ## STEP 1. SETTING UP
 ### `git config`
