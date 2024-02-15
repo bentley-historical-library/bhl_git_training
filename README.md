@@ -29,7 +29,7 @@ Click the Fork button in the top-right corner of a GitHub repo page
 Click File --> Clone repository... in the top-left corner of GitHub Desktop
 Filter your repositories, choose a local path, and click Clone
 ```
-- Cloning (from the command line, `git clone`) copies a from your fork to create a local copy on your computer. [>> More](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone)
+- Cloning (from the command line, `git clone`) copies a repo from your fork to create a local copy on your computer. [>> More](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone)
 
 ## STEP 2. UNDERSTANDING WORKFLOW
 ### Syncing a fork
