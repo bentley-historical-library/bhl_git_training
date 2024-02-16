@@ -18,7 +18,7 @@ In this training, you will upload a python script to `bentley-historical-library
 ![Git/GitHub Workflow](images/git-github-workflow.png)
 
 ## STEP 1. SETTING UP
-### Forking a repo to your personal GitHub account
+### Forking a repo to your personal GitHub account please
 ```
 Click the Fork button in the top-right corner of a GitHub repo page
 ```
