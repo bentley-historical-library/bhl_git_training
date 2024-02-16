@@ -1,1 +1,1 @@
-print ("Gideon was here.")
+print ("Gideon was here")
